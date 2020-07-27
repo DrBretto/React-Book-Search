@@ -1,3 +1,9 @@
 nav {
+  background-color: lightgray;
   display: flex;
+}
+
+div {
+  border: 1px solid blue;
+  text-align: center;
 }

@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./results.css";
+
 export default class Results extends React.Component {
   render() {
     return (
-      <div>
+      <div className="resultsList">
         <p>Results will go here</p>
       </div>
     );
