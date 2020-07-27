@@ -21,7 +21,7 @@ export default class App extends React.Component {
       <div>
         <MainHeader />
         <nav>
-          <SearchBar />
+          <SearchBar onSubmit={this.onFormSubmit} />
           <PrintType />
           <BookType />
         </nav>

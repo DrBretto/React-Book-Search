@@ -1,9 +1,9 @@
 .searchBar {
-  flex: 2;
+  font-size: 2vh;
   width: 90vh;
   width: 50vw;
 }
 
 .bookSearchBar {
-  width: 30vw;
+  width: 20vw;
 }

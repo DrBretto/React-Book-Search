@@ -5,7 +5,7 @@ import "./printType.css";
 export default class PrintType extends React.Component {
   render() {
     return (
-      <div className="printType">
+      <form className="printType">
         <label htmlFor="printTypeSelector">Print Type:</label>
 
         <select name="printTypeSelector" className="printTypeSelector">
@@ -13,7 +13,7 @@ export default class PrintType extends React.Component {
           <option value="book">Book</option>
           <option value="magazine">Magazine</option>
         </select>
-      </div>
+      </form>
     );
   }
 }
